@@ -19,3 +19,7 @@ Taking an extra step for a more refined setup, you may consider a nodemon.json f
 
 to use top level await, have to set "target" property over 2018 and
 in the package.json file, should set "type" property as "module"
+
+```
+? how can i take the schema file to the dist foler
+```

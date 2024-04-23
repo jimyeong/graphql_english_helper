@@ -1,2 +1,7 @@
 declare module "ruru";
-declare module "*.graphql";
+declare module "*.graphql" {
+  import { DocumentNode } from "graphql";
+
+  const value: DocumentNode;
+  export = value;
+}
